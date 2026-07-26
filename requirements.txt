@@ -12,3 +12,4 @@ sqlite-utils
 reportlab
 openpyxl
 email-validator
+matplotlib
