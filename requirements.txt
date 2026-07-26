@@ -11,3 +11,4 @@ python-multipart
 sqlite-utils
 reportlab
 openpyxl
+email-validator
