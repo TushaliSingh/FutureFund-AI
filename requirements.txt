@@ -1,0 +1,13 @@
+streamlit
+fastapi
+uvicorn
+pandas
+numpy
+plotly
+requests
+bcrypt
+passlib[bcrypt]
+python-multipart
+sqlite-utils
+reportlab
+openpyxl
