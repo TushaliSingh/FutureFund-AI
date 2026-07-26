@@ -1,9 +1,9 @@
-Title
+
 # 📈 FutureFund AI
 
 An AI-powered personal finance and investment planning application built using FastAPI, Streamlit, and SQLite.
 
-Features
+
 ## Features
 
 - Secure User Authentication
@@ -42,11 +42,9 @@ Libraries:
 - Passlib
 - BCrypt
 
-Folder Structure
 ## Backend
 - FastAPI
 - Uvicorn
-- 
 ## Frontend
 - Streamlit
 
