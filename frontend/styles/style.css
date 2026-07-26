@@ -1,0 +1,124 @@
+/* ===========================
+   FutureFund AI Theme
+   =========================== */
+
+/* Hide Streamlit default elements */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* Main App Background */
+
+.stApp {
+    background-color: #0F0F0F;
+}
+
+/* Reduce top spacing */
+
+.block-container {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+
+/* Remove extra whitespace */
+
+div[data-testid="stVerticalBlock"] {
+    gap: 0.6rem;
+}
+
+/* Style Streamlit Buttons */
+
+.stButton > button {
+
+    background-color: #F4C430;
+
+    color: black;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 0.75rem 1rem;
+
+    width: 100%;
+
+    transition: all 0.25s ease;
+}
+
+/* Hover Effect */
+
+.stButton > button:hover {
+
+    background-color: #FFD54F;
+
+    color: black;
+
+    transform: translateY(-2px);
+
+    border: none;
+}
+
+/* Button when clicked */
+
+.stButton > button:focus {
+
+    border: none;
+
+    box-shadow: none;
+}
+
+/* Sidebar (hidden for now) */
+
+section[data-testid="stSidebar"] {
+    display: none;
+}
+
+/* Input boxes (for later pages) */
+
+.stTextInput input,
+.stNumberInput input,
+.stSelectbox div[data-baseweb="select"] {
+
+    background-color: #1B1B1B !important;
+
+    color: white !important;
+
+    border-radius: 10px !important;
+
+    border: 1px solid #333 !important;
+}
+
+/* Metric Cards (later) */
+
+div[data-testid="metric-container"] {
+
+    background-color: #1A1A1A;
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    border: 1px solid #333;
+}
+
+/* Tables */
+
+table {
+
+    color: white;
+}
